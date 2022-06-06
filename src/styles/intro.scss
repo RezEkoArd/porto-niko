@@ -1,0 +1,72 @@
+@import '../styles/global.scss';
+
+.intro {
+    background-color: $secColor;
+    display: flex;
+
+
+    .left{
+        flex: 0.1;
+        margin: auto;
+        padding: 20px;
+        
+        .Icon{
+            font-size: 35px;
+            text-decoration: none;
+            color: $thirdColor;
+            margin-bottom: 5px;
+        }
+    }
+
+    .mid{
+        flex: 0.4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 30px 0;
+
+
+        .font{
+            text-align: center;
+            color: $thirdColor;
+            
+            h1{
+                font-size: 45px;
+                margin-bottom: 50px;
+                text-align: center;
+                
+            }
+            p{
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
+
+        .btn {
+            border: none;
+            background-color: $thirdColor;
+            color: $mainColor;
+            border-radius: 15px;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+
+
+            &:hover{
+                background: gray;
+                
+            }
+          }
+
+        
+          
+        
+    }
+
+    .right{
+        flex: 0.5;
+        
+    }
+}
